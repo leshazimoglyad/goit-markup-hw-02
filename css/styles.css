@@ -1,6 +1,7 @@
 :root {
   --main-color: #757575;
   --secondary-color: #212121;
+  --background-color: #fff;
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -11,12 +12,10 @@ body {
   line-height: 1.14;
   color: var(--main-color);
 }
-
 .header {
-  background-color: #ffff;
+  background-color: var(--background-color);
   margin-bottom: 50px;
 }
-
 .header-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -24,7 +23,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   color: #2196f3;
 }
 .header-logo-black {
@@ -34,12 +32,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   color: var(--secondary-color);
 }
 .header-navigation {
 }
-
 .container {
   width: 1600px;
   height: 80px;
@@ -73,9 +69,8 @@ body {
 .contact-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--main-color);
 }
 .contact-link:hover {
@@ -97,7 +92,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--background-color);
 }
 .main-button {
   font-weight: 700;
@@ -110,15 +105,13 @@ body {
   margin: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  background: #f5f4fa;
+  background: #2196f3;
 }
 .main-button:hover {
-  background-color: #2196f3;
-  color: #ffff;
+  background-color: #188ce8;
 }
 .main-button:focus {
-  background-color: #2196f3;
-  color: #ffff;
+  background-color: #188ce8;
 }
 .main-menu: {
   background: #e5e5e5;
@@ -141,13 +134,11 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
-
   color: var(--main-color);
 }
 .employment {
-  background: #e5e5e5;
+  background: var(--background-color);
 }
 .employment-title {
   font-weight: 700;
@@ -155,8 +146,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
+  color: var(--secondary-color);
 }
 .employment-menu {
   display: flex;
@@ -175,7 +165,6 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--secondary-color);
 }
 .personnel-menu {
@@ -220,7 +209,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffff;
+  color: #fff;
 }
 .footer-menu-adress {
 }
@@ -231,14 +220,21 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
 }
 .footer-link-adress {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--background-color);
+}
+.footer-link-adress:hover {
+  color: #2196f3;
+}
+.footer-link-adress;
+:focus {
+  color: #2196f3;
 }
 /* portfolio*/
 .container-button-menu {
@@ -250,7 +246,7 @@ body {
 .container-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   background: #f5f4fa;
@@ -258,16 +254,19 @@ body {
 }
 .container-button:hover {
   background-color: #2196f3;
-  color: #ffff;
+  color: var(--background-color);
 }
 .container-button:focus {
   background-color: #2196f3;
-  color: #ffff;
+  color: var(--background-color);
 }
 .work-menu {
   display: flex;
 }
 .work-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .work-img {
 }
@@ -283,7 +282,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
