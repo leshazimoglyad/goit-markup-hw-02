@@ -47,6 +47,10 @@ body {
   margin: 10px 30px;
 }
 .menu-item {
+  color: #212121;
+}
+.menu-item:current {
+  color: #2196f3;
 }
 .menu-link {
   font-weight: 500;
@@ -61,11 +65,14 @@ body {
 .menu-link:focus {
   color: #2196f3;
 }
+
 .contacts {
   margin: 10px 30px;
 }
-.contacts-item {
+.contacts-item:current {
+  color: #2196f3;
 }
+
 .contact-link {
   font-weight: 500;
   font-size: 14px;
@@ -79,6 +86,7 @@ body {
 .contact-link:focus {
   color: #2196f3;
 }
+
 .main {
 }
 .main-section {
