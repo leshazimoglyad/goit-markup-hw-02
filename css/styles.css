@@ -46,10 +46,7 @@ body {
 .menu {
   margin: 10px 30px;
 }
-.menu-item {
-  color: #212121;
-}
-.menu-item:current {
+.menu-link.current {
   color: #2196f3;
 }
 .menu-link {
@@ -69,7 +66,7 @@ body {
 .contacts {
   margin: 10px 30px;
 }
-.contacts-item:current {
+.contacts-link.current {
   color: #2196f3;
 }
 
