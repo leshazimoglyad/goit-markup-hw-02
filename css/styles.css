@@ -113,7 +113,19 @@ body {
 .main-button:focus {
   background-color: #188ce8;
 }
-.main-menu: {
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.main-menu {
   background: #e5e5e5;
 }
 .main-item {
@@ -152,9 +164,9 @@ body {
   display: flex;
 }
 .employment-item {
-  background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+  background: var(--background-color);
   mix-blend-mode: normal;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px;
 }
 .personnel {
   background: #f5f4fa;
